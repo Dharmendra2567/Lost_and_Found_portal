@@ -1,5 +1,6 @@
 const {User} = require('../models/User');
 
+//routes handler function.
 exports.createUser = async (req, res) => {
     try {
         const { username,phone, email,password } = req.body;
